@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Kaushan+Script&family=Rock+Salt&display=swap');
+@keyframes anda{
+    0%{
+          opacity: .5;
+    }
+
+    25%{
+        height: 300px;
+        opacity: 1;
+    }
+
+    75%{
+        opacity: 1;
+        height: 300px;
+    }
+
+    100%{
+        opacity: .5;
+    }
+}
+
+body{
+    font-family: 'Open Sans', arial, helvetica, sans-serif;
+    color: #666;
+    line-height: 1.7;
+}
+
+.logo_tittle{
+    font-family: 'Rock Salt', cursive;
+    font-size: 2em;
+    background-color: rgb(86, 84, 84);
+    margin-left: 5px;
+    padding-left: 25px;
+    color: white;
+}
+
+.logo_bola{
+    width: 100px;
+    height: 100px;
+    transform: translateY(-70px);
+    margin-left: 600px;
+}
+
+.ruy{
+    position: fixed;
+    opacity: .5;
+    margin-top: 130px;
+    margin-left: 5px;
+    width: 30%;
+    height: 30%;
+}
+
+.ruy:hover{
+    animation: anda 2s linear infinite;
+}
+
+.second_tittle{
+    width: 300px;
+    margin-left: 650px;
+    font-family: 'Kaushan Script', cursive;
+    text-align: center;
+}
+
+.texto{
+    font-family: 'Abel', sans-serif;
+    text-align: justify;
+    width: 65%;
+    margin-left: 35%;
+    /*background-color: yellow;*/
+    transform: translateY(-100px);
+}
+
+.col-2{
+    margin-left: 500px;
+    float: left;
+    margin-bottom: 20px;
+    transform: translateY(-60px);
+}
+
+.videos{
+    display: inline-block;
+    margin-left: 50px;
+}
+
+#video1{
+    width: 200px;
+    height:300px;
+    margin-bottom: 40px;
+}
+
+#video2{
+    width: 200px;
+    height: 300px;
+    margin-bottom: 40px;
+}
+
+.buttom_video{
+   transform: translateX(-150px);
+}
+
+.fotos-2{
+    margin-top: 20px;
+    margin-left: 520px;
+    float: left;
+    transform: translateY(-50px);
+}
+
+.fotos{
+    display: inline-block;
+}
+
+.fotos_indi{
+    width: 200px;
+    height: 300px;
+    border-radius: 5px;
+}
+
+
+

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Monica">
+    <meta name="description" content="Lista de documentos">
+    <meta name="keywords" content="html5, tecnologia">
+    <title>Portfolio Ruy Camargo</title>
+    <link rel="stylesheet" href="estilo.css">
+
+</head>
+
+<body>
+    <header class="main_header">
+    <img src="Imagens/ruy.jpg" alt="Logo Bola Ruy Camargo" class="ruy">       <h1 class="logo_tittle">Ruy Camargo</h1>
+    </header>
+    <main>
+        <section class="Intro">
+            <h2 class="second_tittle">Shaper Ruy Camargo</h2>
+            <img src="Imagens/Logo_Ruy.svg" alt="" class="logo_bola">
+            <p class="texto">Shapeando desde 1988 com foco em hidrodinâmica, desenhando e fabricando pranchas personalizadas
+               para todos os níveis e habilidades do surf. Primeiro fabricante de pranchas de 
+               kitesurf do Brasil, fez sua história. Experiência em pranchas fabricadas à vacuo, uso de materiais diferenciados, 
+               sempre procurando inovar para alcançar a perfeição na performance de suas pranchas. 
+            </p>
+        </section>
+        <section class="video-content">
+            <div class="col-2">
+                <article class="videos">
+                   <video id="video1">
+                   <source src="imagens/VIDEO-2022-07-19-19-36-47.mp4">
+                   </video>
+                   <button onclick="playPause()" class="buttom_video">Play/Pause</button>
+                   <script> 
+                    var myVideo = document.getElementById("video1"); 
+                    
+                    function playPause() { 
+                      if (myVideo.paused) 
+
+                        myVideo.play(); 
+                      else 
+                        myVideo.pause(); 
+                    } 
+                </script>
+                <article class="videos">
+                    <video id="video2">                    
+                    <source src="imagens/VIDEO-2022-07-19-19-36-57.mp4" type="video/mp4">
+                    </video>
+                    <button onclick="playPause2()" class="buttom_video">Play/Pause</button>
+                </article>
+                <script> 
+                    var myVideo2 = document.getElementById("video2"); 
+                    
+                    function playPause2() { 
+                      if (myVideo2.paused) 
+                        myVideo2.play(); 
+                      else 
+                        myVideo2.pause(); 
+                    } 
+                </script>
+            </div>
+        </section>
+        <section class="fotos_content">
+              <div class="fotos-2">
+                <article class="fotos">
+                    <img src="imagens/photo2.jpg" class="fotos_indi">
+                </article>
+                <article class="fotos">    
+                    <img src="imagens/photo3.JPG" class="fotos_indi">
+                </article class="fotos">
+                    <img src="Imagens/photo5.jpg" class="fotos_indi">
+                </article>
+                <article class="fotos">
+                    <img src="Imagens/IMG_9322.JPG" class="fotos_indi">
+                </article>
+                <article class="fotos">
+                    <img src="Imagens/photo6.jpg" class="fotos_indi">
+                </article>
+                <article class="fotos">
+                    <img src="Imagens/photo4.jpg" class="fotos_indi">
+                </article>
+              </div>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
+      
+      
+ 
