@@ -1,36 +1,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Rock+Salt&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Abel&family=Kaushan+Script&family=Rock+Salt&display=swap');
+
 @keyframes anda{
     0%{
-          opacity: .5;
+          opacity: 1;
     }
 
     25%{
-        height: 300px;
-        opacity: 1;
+        height: 200px;
+        opacity: .5;
+    }
+
+    50%{
+        opacity: .5;
+        height:200px;
     }
 
     75%{
-        opacity: 1;
-        height: 300px;
+        opacity: .5;
+        height: 50%;
     }
 
     100%{
-        opacity: .5;
+        opacity: 1;
     }
 }
 
 body{
     font-family: 'Open Sans', arial, helvetica, sans-serif;
-    color: #666;
+    color: rgb(35, 34, 34);
     line-height: 1.7;
+    background-color:rgb(207, 200, 224);
 }
 
 .logo_tittle{
     font-family: 'Rock Salt', cursive;
     font-size: 2em;
-    background-color: rgb(86, 84, 84);
+    background-color: rgb(84, 84, 86);
     margin-left: 5px;
     padding-left: 25px;
     color: white;
@@ -45,11 +52,10 @@ body{
 
 .ruy{
     position: fixed;
-    opacity: .5;
     margin-top: 130px;
     margin-left: 5px;
     width: 30%;
-    height: 30%;
+    height: 50%;
 }
 
 .ruy:hover{
@@ -116,6 +122,20 @@ body{
     height: 300px;
     border-radius: 5px;
 }
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 35%;
+    left: 0;
+    padding: 0 50px 60px 0;
+    box-sizing: border-box;
+    text-align: center; 
+}
+
+
+
+
 
 
 
