@@ -31,8 +31,10 @@ body{
     font-family: 'Open Sans', arial, helvetica, sans-serif;
     color: rgb(35, 34, 34);
     line-height: 1.7;
-    background-color:rgb(207, 200, 224);
+    background-color:rgb(230, 225, 247);
 }
+
+@media screen and (min-width: 75em){
 
 .logo_tittle{
     font-family: 'Rock Salt', cursive;
@@ -123,17 +125,98 @@ body{
     border-radius: 5px;
 }
 
-footer{
+.main-footer{
     position: fixed;
     bottom: 0;
     width: 35%;
     left: 0;
     padding: 0 50px 60px 0;
     box-sizing: border-box;
-    text-align: center; 
+    text-align: center;
 }
 
+}
 
+@media screen and (max-width: 48.75em){
+  
+  .logo_tittle{
+     font-family: 'Rock Salt', cursive;
+     font-size: 1.5em;
+     background-color: rgb(84, 84, 86);
+     margin-left: 5px;
+     padding-left: 25px;
+     color: white;
+    } 
+
+    .ruy{
+        display: none;
+    }
+    
+    .second_tittle{
+        width: 300px;
+        font-family: 'Kaushan Script', cursive;
+        margin-left: 100px;
+    }
+    
+    .logo_bola{
+        width: 50px;
+        height: 50px;
+        margin-left: 45px;
+        transform: translateY(-55px);
+    }
+
+    .texto{
+        font-family: 'Abel', sans-serif;
+        text-align: justify;
+        width: 80%;
+        margin-left: 40px;
+        transform: translateY(-80px);
+    }
+
+    .videos{
+        display: inline-block;
+        transform: translateY(-80px);
+    }
+    
+    #video1{
+        width: 200px;
+        height:300px;
+        margin-bottom: 90px;
+        margin-left: 90px;
+    }
+    
+    #video2{
+        width: 200px;
+        height: 300px;
+        margin-bottom: 20px;
+        margin-left: 90px;
+    }
+
+    .buttom_video{
+        transform: translateY(-150px);
+     }
+
+     .fotos{
+        display: inline-block;
+    }
+
+    .fotos-2{
+        transform: translateY(-90px);
+    }    
+      
+    .fotos_indi{
+        margin-left: 30px;
+        width: 150px;
+        height: 200px;
+        border-radius: 5px;
+    }
+
+    .fa-stack{
+        transform: translateY(-60px);
+        margin-left: 35px;
+    }
+    
+}
 
 
 
